@@ -11,3 +11,6 @@ def pig_latin(text):
         # Join all the elements in the list into a string separated by a space, and capitalize the first letter
         pig4 = " ".join(pig3).capitalize()
     return pig4
+
+text = input("Enter your input: ")
+print(pig_latin(text))
